@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+    <title>video_slider</title>
+</head>
+<body>
+    <!-- 전체 컨텐츠를 담는 div를 만든다. -->
+    <div class="container">
+        <!-- 첫번째 동영상을 담을 div -->
+        <div class="box box1">
+            <!-- 아래의 div에 담겨 content가 움직일때 같이 움직인다. -->
+            <video src="./contents/video1.mp4" muted loop autoplay></video>
+            <!-- 동작을 담당하는 div를 만든다. -->
+            <div class="content">
+                <!-- 동영상 설명 -->
+                <h2>Slide One</h2>
+            </div>
+        </div>
+        <!-- 두번째 동영상을 담을 div -->
+        <div class="box box2">
+            <video src="./contents/video2.mp4" muted loop autoplay></video>
+            <div class="content">
+                <h2>Slide Two</h2>
+            </div>
+        </div>
+        <!-- 세번째 동영상을 담을 div -->
+        <div class="box box3">
+            <video src="./contents/video3.mp4" muted loop autoplay></video>
+            <div class="content">
+                <h2>Slide Three</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
